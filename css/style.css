@@ -1,1 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Responsive code*/
+
+@media (min-width: 992px) {
+    
+    .large{
+        width: 33.33%;
+        float: left;
+    }
+
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .medium{
+        width: 50%;
+        float: left;
+    }
+    
+    .medium1{
+        width: 100%;
+        float: left;
+    }
+       
+}
+
+@media (max-width: 767px) {
+    
+    .small{
+        width: 100%;
+        float: left;
+    }
+    
+}
+
+/* End of responsive code*/
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+}
+
+div.mom {
+    width: 100%;
+    
+}
+
+
+/* Cuadritos de títulos */
+
+p.title {
+    border: 1px solid black;
+
+    width: 140px;
+    height: 40px;
+    margin-right: 6px;
+    margin-left: auto;
+    margin-top: 0;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 8px;
+    position: relative;
+    top: 10px;
+    right: -6px;
+    z-index: 2;
+    font-size: 125%;
+}
+
+p.a {
+    background-color: dodgerblue;
+}
+
+p.b {
+    background-color: darkviolet;
+}
+
+p.c {
+    background-color: lightskyblue;
+}
+
+/* Fin de cuadritos de títulos */
+
+p.parrafo {
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+    border: 1px solid black;
+    position: relative;
+    top:-50px;
+    left:0;
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: bisque;
+    font-size: 100%;
+   
+    
+}
+
+
+div.large, div.medium, div.medium1, div.small {
+    border: 1px solid white;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0;
+    margin-bottom: -68px;
+    }
+
+
+
 
